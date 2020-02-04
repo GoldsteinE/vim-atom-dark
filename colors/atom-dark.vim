@@ -69,7 +69,7 @@ hi PreCondit       guifg=#DAD085               gui=none
 hi PreProc         guifg=#DAD085
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#92C5F7               gui=none
-hi Search                        guibg=#475F2C gui=none
+hi Search          guifg=none    guibg=#475F2C gui=none
 " marks
 hi SignColumn      guifg=#DAD085 guibg=#232526
 hi SpecialChar     guifg=#92C5F7               gui=none
