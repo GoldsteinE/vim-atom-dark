@@ -47,7 +47,7 @@ hi Folded          guifg=#465457 guibg=#000000
 hi Function        guifg=#DAD085
 hi Identifier      guifg=#B6B7EB
 hi Ignore          guifg=#808080 guibg=bg
-hi IncSearch                     guibg=#627C4E
+hi IncSearch                     guibg=#627C4E gui=none
 
 hi Keyword         guifg=#92C5F7               gui=none
 hi Label           guifg=#A8FF60               gui=none
@@ -69,16 +69,16 @@ hi PreCondit       guifg=#DAD085               gui=none
 hi PreProc         guifg=#DAD085
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#92C5F7               gui=none
-hi Search                        guibg=#475F2C
+hi Search                        guibg=#475F2C gui=none
 " marks
 hi SignColumn      guifg=#DAD085 guibg=#232526
 hi SpecialChar     guifg=#92C5F7               gui=none
 hi SpecialComment  guifg=#7C7C7C               gui=none
 hi Special         guifg=#66D9EF guibg=bg      gui=none
-hi SpellBad        guibg=#661400
-hi SpellCap        guibg=#383900
-hi SpellLocal      guisp=#70F0F0
-hi SpellRare       guisp=#FFFFFF
+hi SpellBad        guibg=#661400               gui=none
+hi SpellCap        guibg=#383900               gui=none
+hi SpellLocal      guisp=#70F0F0               gui=none
+hi SpellRare       guisp=#FFFFFF               gui=none
 hi Statement       guifg=#92C5F7               gui=none
 hi StatusLine      guifg=#455354 guibg=fg      gui=none
 hi StatusLineNC    guifg=#808080 guibg=#080808
@@ -121,10 +121,6 @@ hi NeomakeVirtualtextMessage guifg=#92C5F7
 hi GitGutterAdd guifg=#008c43 guibg=#232526
 hi GitGutterDelete guifg=#8c0049 guibg=#232526
 hi GitGutterChange guifg=#9a9918 guibg=#232526
-
-
-
-
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
