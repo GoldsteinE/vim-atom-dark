@@ -109,6 +109,9 @@ hi ColorColumn     guifg=#B62323 guibg=#232526
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 
+hi LineNr          guifg=#465457 guibg=#232526
+hi CursorLineNr    guifg=#B6B7EB               gui=none
+
 " NeoMake
 hi NeomakeWarningSign guifg=#969900 guibg=#232526 cterm=NONE gui=NONE
 hi NeomakeErrorSign guifg=#991f00 guibg=#232526 cterm=NONE gui=NONE
